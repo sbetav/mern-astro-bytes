@@ -10,6 +10,7 @@
 - [![Tailwind][tailwindcss]][tailwind-url]
 - [![Node][node]][node-url]
 - [![Express][express]][express-url]
+- [![MongoDB][mongodb]][mongodb-url]
 
 ## Project Setup
 
@@ -18,12 +19,14 @@
 ```sh
 cd ./client
 npm install
+npm run dev
 ```
 
 #### Open another terminal
 
 ```sh
 cd ./server
+npm install
 npm run dev
 ```
 
@@ -50,5 +53,7 @@ Project Link: [https://github.com/sbetav/mern-astro-bytes](https://github.com/sb
 [node-url]: https://nodejs.org/en
 [express]: https://img.shields.io/static/v1?style=for-the-badge&message=Express&color=000000&logo=Express&logoColor=FFFFFF&label=
 [express-url]: https://expressjs.com/
+[mongodb]: https://img.shields.io/static/v1?style=for-the-badge&message=MongoDB&color=47A248&logo=MongoDB&logoColor=FFFFFF&label=
+[mongodb-url]: https://www.mongodb.com/
 [tailwindcss]: https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=
 [tailwind-url]: https://tailwindcss.com/
