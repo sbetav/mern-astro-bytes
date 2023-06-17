@@ -14,7 +14,7 @@ const Login = () => {
   };
   return (
     <div className="flex items-center justify-center screen-height">
-      <form onSubmit={handleSubmit} className="form">
+      <form onSubmit={handleSubmit} className="form m-custom">
         <h1 className="text-center text-white font-bold text-3xl">Login</h1>
         <div className="flex flex-col gap-3">
           <input

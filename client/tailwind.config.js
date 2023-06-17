@@ -30,7 +30,7 @@ export default {
         "custom": "1200px",
       },
       margin: {
-        "custom": "0 2.4rem",
+        "custom": "0 1.4rem",
       }
     },
   },
