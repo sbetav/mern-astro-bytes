@@ -16,7 +16,7 @@ const Blogs = () => {
   };
 
   useEffect(() => {
-    getBlogs();
+ getBlogs();
   });
 
   return (
@@ -29,6 +29,7 @@ const Blogs = () => {
       </div>
       <div className="w-full flex flex-col mt-4 gap-5">
         {blogs && blogs.map((blog) => <SingleBlog key={blog._id} blog={blog} />)}
+        {!blogs && <p className="text-center mt-32 text-lg">Loading...</p>}
 
 
       </div>

@@ -57,6 +57,7 @@ const Profile = () => {
                 You have not created any posts yet.
               </p>
             )}
+            {!blogs && <p className="text-center mt-28 text-lg">Loading...</p>}
           </div>
         </div>
       </div>
